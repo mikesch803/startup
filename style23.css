@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'MuseoModerno', cursive;
+  /*font-family: 'Montserrat', sans-serif;*/
+  background: url(header.jpg) no-repeat center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+hr{
+	border-color: #ff0000;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+h1{
+	font-size: 3rem;
+	color: #FFFFFF;
+}
+
+.buffer{
+	height: 10rem;
+
+}
+
+.btn{
+	font-weight: 700;
+    border-radius: 300px;
+    padding: 1rem 2rem;
+
+}
+
+.btn-primary{
+	background-image: linear-gradient(to top left,#ff0000,#e52e71)!important;
+    color: #fff!important;
+    background-border:linear-gradient(to top left,#ff0000,#e52e71)!important;
+    border-color: linear-gradient(to top left,#ff0000,#e52e71)!important;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
